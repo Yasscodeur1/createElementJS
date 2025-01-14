@@ -1,0 +1,32 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin: 0;
+    padding: 0;
+}
+  
+#controls {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+  
+#grid {
+    display: grid;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+  
+.pixel {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #f0f0f0;
+}
+  
+.pixel:hover {
+    cursor: pointer;
+}
+  
