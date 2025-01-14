@@ -51,13 +51,14 @@ elementDiv.appendChild(title)
 // creation element bouton poour incrementer
 let button1 = document.createElement('button')
 button1.textContent = '+'
-elementDiv2.appendChild(button1) 
-button1.style.fontSize = '1em'
+elementDiv2.appendChild(button1)
+button1.style.fontSize = '1em' 
 
 // creation element bouton pour rafraichir
 let button2 = document.createElement('button');
 button2.textContent = ''
 elementDiv2.appendChild(button2)
+button2.style.fontSize = '1em'
 
 let buttonIn = document.createElement('i')
 buttonIn.className = 'fa-solid fa-rotate-right';
